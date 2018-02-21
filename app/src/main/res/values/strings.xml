@@ -23,4 +23,10 @@
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
+
+    <!-- Locations Fragment -->
+    <string name="e_waste_title" translatable="true">E-Waste</string>
+    <string name="lightning_waste_title" translatable="true">Lightning Waste</string>
+    <string name="second_hand_title" translatable="true">Second Hand Goods</string>
+    <string name="cash_for_trash_title" translatable="true">Cash For Trash</string>
 </resources>

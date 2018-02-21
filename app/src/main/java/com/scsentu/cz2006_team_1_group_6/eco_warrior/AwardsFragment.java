@@ -7,9 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class ItemFragmentTwo extends Fragment {
-    public static ItemFragmentTwo newInstance() {
-        ItemFragmentTwo fragment = new ItemFragmentTwo();
+public class AwardsFragment extends Fragment {
+    public static AwardsFragment newInstance() {
+        AwardsFragment fragment = new AwardsFragment();
         return fragment;
     }
 
@@ -19,8 +19,7 @@ public class ItemFragmentTwo extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.item_fragment_two, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_awards, container, false);
     }
 }

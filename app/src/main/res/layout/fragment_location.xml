@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/e_waste_layout"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@color/waste_card_color"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:clickable="true"
+            android:onClick="e_waste"
+            android:src="@drawable/e_waste"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textColor="@color/waste_text_color"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/e_waste_title"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lightning_waste_layout"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@color/waste_card_color"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/lightning_waste"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textColor="@color/waste_text_color"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/lightning_waste_title"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/second_hand_layout"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@color/waste_card_color"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/second_hand"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textColor="@color/waste_text_color"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/second_hand_title"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cash_for_trash_layout"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@color/waste_card_color"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/cash_for_trash"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textColor="@color/waste_text_color"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/cash_for_trash_title"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

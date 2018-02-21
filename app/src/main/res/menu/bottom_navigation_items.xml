@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_item1"
-        android:icon="@drawable/ic_account_box_black_24dp"
-        android:title="Fragment One"/>
+        android:id="@+id/action_fragment_location"
+        android:enabled="true"
+        android:icon="@drawable/ic_location"
+        android:title="Location"
+        app:showAsAction="always|withText"/>
     <item
-        android:id="@+id/action_item2"
-        android:icon="@drawable/ic_account_circle_black_24dp"
-        android:title="Fragment Two"/>
+        android:id="@+id/action_fragment_videos"
+        android:enabled="true"
+        android:icon="@drawable/ic_videos"
+        android:title="Videos"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/action_fragment_awards"
+        android:enabled="true"
+        android:icon="@drawable/ic_award"
+        android:title="Awards"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/action_fragment_records"
+        android:enabled="true"
+        android:icon="@drawable/ic_record"
+        android:title="Records"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/action_fragment_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        app:showAsAction="always|withText"/>
 </menu>

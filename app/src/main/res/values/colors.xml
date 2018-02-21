@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App Colors -->
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Bottom Navigator Colors -->
+
+    <color name="bottom_navigator_color">#EEE8AA</color>
+    <color name="navigator_tabs_text">#7DC8CD</color>
+
+    <!-- Waste Location Colors -->
+    <color name="waste_text_color">#F5786E</color>
+    <color name="waste_card_color">#FFFFF2</color>
 
     <!-- Screens background color-->
     <color name="bg_screen1">#FFFFFF</color>
