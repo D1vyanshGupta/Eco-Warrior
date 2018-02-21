@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1061198454386",
+    "firebase_url": "https://eco-warrior-4aef2.firebaseio.com",
+    "project_id": "eco-warrior-4aef2",
+    "storage_bucket": "eco-warrior-4aef2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061198454386:android:f4957dcffa41f016",
+        "android_client_info": {
+          "package_name": "com.scsentu.cz2006_team_1_group_6.eco_warrior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061198454386-utd3okhdjusr26mtsj498vtkp0r4pa3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scsentu.cz2006_team_1_group_6.eco_warrior",
+            "certificate_hash": "8f2d8c16861f7446b755d9ab078ec29300948901"
+          }
+        },
+        {
+          "client_id": "1061198454386-6ttdvp7cpjpssta51cbl6vsmjc7rgsut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_jBi-K3SVza4hoGVcWdm3fk9tlgkx5fU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061198454386-6ttdvp7cpjpssta51cbl6vsmjc7rgsut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

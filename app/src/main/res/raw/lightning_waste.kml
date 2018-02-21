@@ -1,0 +1,6497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Lighting">
+  <name>Lighting</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Lighting</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8.30am to 1.00pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-203</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Telok Blangah Heights</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>100062</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Blangah Garden RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>62</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>CEEC7ADAB1DF13EB</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>4/28/2015 12:09:40 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>25527.9897</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>28635.6929</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8111066698017,1.275245441110199,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8.30am to 12.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-358</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Dover Crescent</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>130022</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Dover Crescent RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>22</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>288198A0C1287296</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>4/28/2015 12:09:40 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>22465.0459</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>32154.7041</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7835843926951,1.307069743647151,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens every Wed, 8pm to 9pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-525</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bukit Batok Street 31</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>650369</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North Zone 6 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>369</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>F97F5B41B6EC4406</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18846.945</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>38010.8184</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7510723007605,1.360029451063926,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon, Wed &amp; Fri, 8pm to 9pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-48</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong West Street 74</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>640732</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North Zone 7 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>732</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>22895561AF045DCA</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>13119.1879</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>36442.2053</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.6996054519373,1.345841193931732,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon, Wed &amp; Fri, 8pm to 9pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-08</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong West Street 74</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>640760</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North Zone 8 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>760</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>D8EFD8F649EF437A</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>13138.8852</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>36838.5347</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.6997822485819,1.349425455198147,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00005">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Wed &amp; Thu, 8pm to 9.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-91</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong West Street 52</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>642274</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North Zone 9 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>274B</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>6B606729F5B4D318</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>13528.2211</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37218.9024</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7032804848653,1.352865547195426,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00006">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opening hours
+Mon, Tue, Thu &amp; Sat 9am to 6.30pm. Wed &amp; Sun 8.30pm to 10pm. Fri 1pm to 10pm.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong West Street 61</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>640640</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Pioneer Zone 11 RC Centre</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>640</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>8069F79C700EC597</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>12790.0491</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>35810.687</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.6966482629527,1.340129817165174,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00007">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8.30am to 12.00pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Boon Lay Way</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>609958</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Yuhua Community Club</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>90</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>C2BE22FE90AF0F85</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>17288.108</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>35793.1175</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7370659170604,1.33997286002428,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00008">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 3pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-258</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Street</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>543291</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Lodge RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>291C</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>A3DFA5347822196D</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35264.4752</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>42024.6644</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8985957096458,1.396329736448326,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00009">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 1.30pm to 9.30pm. Sat 10am to 6pm.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-218</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Lane</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>543211</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Beacon RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>221C</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>87B39048727BA268</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35341.9066</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>40787.9044</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8992911820128,1.385144910584569,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00010">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 1pm to 10pm (except Wed 9am to 6pm)</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-99</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Lane</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>543206</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Villa RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>206C</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>1B45188B454D4943</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35147.8427</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>40972.9334</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8975474172919,1.386818294593061,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00011">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 1pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-538</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Walk</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>540237</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Plains RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>237</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>42C513C36432343A</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35256.1009</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41310.1444</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.898520283188,1.38986788032477,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00012">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 1pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-75</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Street</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>542250</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Haven RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>250B</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>D10C0FCEC7002F5A</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35397.3857</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41573.1459</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8997899019527,1.39224633522953,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00013">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 12noon to 9.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-527</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Road</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>542257</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Garden RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>257B</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>4FC91D8D73276584</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35084.7231</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41612.0061</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8969803934214,1.392597849812729,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00014">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 2pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-124</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Street</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>543299</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Green RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>299C</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>F190BE8CB307FFDA</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35618.6169</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>42026.8056</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9017779565781,1.396349009614712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00015">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 1pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-525</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Drive</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>542201</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Southgate RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>201B</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>2C4CFBD806156E90</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>34744.5588</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41138.212</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8939236422057,1.388313110296919,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00016">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 1pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-305</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Compassvale Walk</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>541226</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Compassvale Vista RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>226A</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>E8FC54B3B12CE93B</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35389.5891</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41038.6579</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8997197084339,1.3874126218019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00017">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Sun 8.30am to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-01</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Sengkang Square</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>545025</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Sengkang Community Club</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>2</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>53F8631B5ECDECEA</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>34742.5948</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41632.7567</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.893906108166,1.392785593104779,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00018">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 8am to 12pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Punggol Field</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>820106</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Punggol Meridian Senior Citizens' Corner</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>106</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>B889A876D48A76E7</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>36343.523</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>42031.5647</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9082918155795,1.396391849247424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00019">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 12.30pm to 10pm. Thurs 9am to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-1669</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Hougang Ave 8</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>530435</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Punggol Hibiscus RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>435</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>14EEFD08AAEE3512</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>34708.288</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>39945.5604</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8935974491721,1.377527210732311,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00020">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon, Wed &amp; Fri 1pm to 9.30pm. Tue, Thurs &amp; Sat 9am to 5pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Rivervale Walk</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>540110</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Rivervale Court RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>110</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>54B8D00731CF4CE4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35455.557</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>40605.1735</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9003123702804,1.383492331003104,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00021">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Tue, Thurs &amp; Fri 1.30pm to 10pm. Wed &amp; Sat 9am to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-436</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Rivervale Drive</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>541121</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Rivervale Garden RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>121A</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>F00090FE30381FC9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35989.671</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>40958.8684</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9051118804042,1.386690876302978,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00022">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 9am to 1pm &amp; 2pm to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-169</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Rivervale Drive</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>544123</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Rivervale Grove RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>123D</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>2DF10519B281F396</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35664.737</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>40975.8968</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9021921068112,1.386844962214525,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00023">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri (except Wed) 12.30pm to 10pm. Sun 9am to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-513</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Rivervale Drive</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>540146</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Rivervale Horizon RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>146</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>97132ED798CDB665</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>36105.9869</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41379.6752</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9061571844858,1.3904964669002,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00024">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri, 9am to 5.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>Level 26, near lift lobby</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong Town Hall Road</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>609434</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>South West CDC Office</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>8</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>3BD1C0CAE95F0B61</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>17801.9682</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>34841.1146</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7416835686975,1.331363471746683,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00025">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon &amp; Wed 1pm to 10pm. Tue, Thurs &amp; Sat 9am to 6pm. Closed on Fri &amp; Sun.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#02-02</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Clementi Ave 1</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>120420</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Casa Clementi RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>420A</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>8BFC2CE78DFDA864</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>20855.7291</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>32483.7842</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7691238480702,1.310045496005587,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00026">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Tue &amp; Fri, 3pm to 9pm. Sat 12pm to 9pm. Closed on Mon, Wed, Thurs &amp; Sun.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-362</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Clementi Ave 5</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>120379</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Clementi Zone 1 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>379</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>46ABE07A73D58ED9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>20711.5762</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>33360.2689</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7678283594919,1.317972075292546,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00027">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon &amp; Thurs, 1pm to 6pm. Tue &amp; Wed, 3pm to 9pm. Sun 9am to 6pm. Closed on Fri &amp; Sat.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-622</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Clementi Ave 3</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>120462</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Clementi Heights RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>462</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>46D53277C5DD0FC8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>20497.108</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>32600.4975</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7659014380842,1.311100923100169,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00028">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 9am to 9.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong West Street 74</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>649149</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North @ Gek Poh Ville CC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>1</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>50E56B49910C6C4D</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>13021.3608</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>36757.1983</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.6987262622554,1.34868982118792,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00029">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-89</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bukit Batok West Street 33</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>650329</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North Zone 4 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>329</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>B42B4ACB49F83CE2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18440.335</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>38353.2698</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.747418532922,1.363126327844366,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00030">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 9am to 9.30pm. Closed on PH.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>30 Bukit Batok Street 31</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>659440</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North CC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>30</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>DF21A571305DE821</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18667.1597</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37903.5042</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7494568459798,1.359058883873634,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00031">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 2pm to 10pm. Closed on PH.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-348</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bukit Batok West Avenue 5</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>650386</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Bukit Gombak Community Centre</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>386</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>C7F86C0320381191</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>19012.0831</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>38443.1575</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7525560450833,1.36393941735675,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00032">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 9am to 9.30pm. Closed on PH.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Teck Whye Avenue</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>688892</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Choa Chu Kang Community Club</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>35</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>D84864C87646AD83</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18939.5702</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>40346.8049</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7519038855829,1.38115528550871,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00033">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 10am to 1pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-01</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Choa Chu Kang Street 52</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>689286</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Yew Tee Community Building</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>20</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>2B6D933BE4C672E5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18141.0236</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41868.5998</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7447278452802,1.394917577235035,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00034">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 2pm to 10pm. Closed on PH.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-218</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Choa Chu Kang Avenue 4</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>680421</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Keat Hong @ Lam Soon CC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>421</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>A4D8D2AAC09621BF</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>17698.0077</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>40415.8136</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.74074751004,1.381778962777529,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00035">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 9.30am to 12pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>Void Deck</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong West Street 91</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>640952</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Nanyang Community Club</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>952</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>BCC2CDB07F7A33BE</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>12198.1665</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>36130.0285</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.691329695432,1.343017515837059,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00036">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 10am to 12pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bukit Batok Central</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>659959</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Bukit Batok Community Club</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>21</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>7F4726AC1DD28EF0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18450.9532</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>36922.924</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7475144003324,1.3501908069526,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00037">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily Mon 1pm to 10pm, Thu 1pm to 10pm, Fri 9am to 6pm, Sat 9am to 6pm.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-45</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Yung Ho Road</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>610153</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Taman Jurong Zone A RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>153</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>BE728A4E32FC1F96</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>15504.9482</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>34412.1548</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7210437596607,1.327483260622799,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00038">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 9am to 1pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong West Street 52</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>649296</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Jurong Spring Community Club</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>8</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>86D7F03A25EAC443</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>15183.0604</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>36717.318</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7181504556732,1.348330161688611,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00039">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8.30am to 1pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Pandan Gardens</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>609335</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Ayer Rajah Community Centre</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>150</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>D386FF23D80B17AD</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18462.6315</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>33671.0427</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7476203558982,1.320781983223039,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00040">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8.30am to 1pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-362</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Teban Gardens Road</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>600032</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Ayer Rajah Zone 3 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>32</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>52AC7C77B3FF2E80</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>17600.3777</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>33788.5028</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7398725242614,1.321843967474819,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00041">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8.30am to 1pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-235/237</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Boon Lay Place</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>640207</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Boon Lay Zone A RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>207</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>BA5F6F9B7850CC3C</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>14673.114</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>36524.4912</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7135683629455,1.346586085989424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00042">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes.
+Opens daily 9.00am to 1.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Clementi Street 2</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>129605</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>West Coast Community Centre</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>2</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>9B1070EEFEDB98C9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>20378.0723</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>31665.5504</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7648320729803,1.302645568835323,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00043">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon, Wed &amp; Fri, 8pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-217</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bukit Batok West Avenue 2</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>650419</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North Zone 1 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>419</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>405C311F758C62E2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18285.9721</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>38206.5721</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7460315277481,1.361799596600757,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00044">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Sat, 7pm to 10.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-49
+#01-217</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bukit Batok Street 31</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>650304</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North Zone 3 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>304</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>C37BADF08A4286DF</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18499.3295</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37727.9868</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7479488367204,1.35747151563825,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00045">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon, Wed &amp; Fri, 8pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-114</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bukit Batok Street 34</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>650350</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Hong Kah North Zone 5 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>350</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>65187D85799E0EFA</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>18633.2999</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>38166.6396</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7491525110689,1.361438574315809,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00046">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Tue, Wed, Thu, Fri &amp; Sun 2pm to 5pm, 8pm to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-730</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Rivervale Street</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>540135</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Rivervale Spring RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>135</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>1ED902A2E7592E56</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>35979.669</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41119.2207</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9050220493856,1.388141047525076,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00047">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens on Mon to Fri (except Thu) 2pm to 10pm. Sat 9.30am to 5.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-139</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Rivervale Crescent</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>543185</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Rivervale Village RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>185C</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>71A87A59741AFFC0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>36143.5071</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41675.71</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9064944141239,1.393173686724627,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00048">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon &amp; Tue: 1pm to 10pm. Thu to Sat 9am to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-1076</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Rivervale Drive</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>542188</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Rivervale Vista RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>188B</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>9A3CB96F3473DA43</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>36028.2721</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>41826.8616</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9054589797871,1.394540678571467,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00049">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri (except Wed) 1pm - 10pm. Sat 9am - 6pm.</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#1-1608</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bedok Reservoir Rd</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>470627</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Eunos - Zone 3 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>627</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>A22D8B3BF07D5817</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>37156.9875</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>35128.3946</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9155993198069,1.333961860616744,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00050">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily (except Thu &amp; Sun) 1pm - 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#1-136</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Bedok Reservoir Rd</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>470114</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Eunos - Zone 7 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>114</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>0D8B667CDE1B32FC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>36515.9298</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>34752.287</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9098389504887,1.330560666798114,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00051">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily from 9am to 10pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Serangoon North 
+Avenue 2</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>555877</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Serangoon Community Club</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>10</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>740E40F0E7D89C5F</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>32519.2938</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>39119.26</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8739276138578,1.370054866020424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00052">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon &amp; Wed 12pm to 9:30pm. Tues, Fri &amp; Sat 8:30am to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-384</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines Street 83</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>520857</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Tampines Parkview RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>857</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>2C8E2DB2485949C4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>39416.1612</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37377.709</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.935900108329,1.354303061098481,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00053">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Tue, Thurs &amp; Fri 12pm to 9:30pm. Wed &amp; Sat 8:30am to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines Street 71</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>520702</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Tampines Sunrise RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>702</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>2CD1456CB998E169</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>39591.9685</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37584.4337</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9374799277808,1.356172534788813,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00054">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon 8.30am to 6pm. Tue, Wed &amp; Fri 12pm to 9.30pm. Sat 8.30am to 5.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-96</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines St 82</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>527842</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Tampines Arcadia RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>842G</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>B837346E5B600D48</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>39551.0104</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37131.5397</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9371117189255,1.352076746233273,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00055">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Sat 9am to 1pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines Street 71</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>520730</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Tampines Courtview Caf‚ Corner</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>730</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>B766CBFDE416488E</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>39148.9548</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37643.4093</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9334991886986,1.356706058261989,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00056">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon, Wed &amp; Fri 12.30pm to 10pm. Thu 9.30am to 7pm. Sat 9.30pm to 7pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-141</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines Street 82</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>520842</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Tampines Ville RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>842</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>A3D2A48A4F57E0C0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>39421.9914</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37094.1337</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9359523894953,1.351738508908567,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00057">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon, Wed &amp; Fri 7am to 11am. Sat &amp; Sun 9am to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-37</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines Street 72</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>520719</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Tampines Starlight RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>719</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>D7FB71D2A382C20E</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>39420.5762</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37876.6598</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9359399708706,1.35881538546969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00058">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Fri 9am to 5:30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-45</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines Street 34</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>529241</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>The Eden</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>39</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>AC37B6FFDDBE9BD8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>42010.9057</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37526.2016</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9592155875679,1.355644866371629,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00059">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens Mon to Thu 4pm to 9pm. Fri 4pm to 8pm. Closed on weekends and PH</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-350</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines Street 33</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>520345</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Tampines Changkat - Zone 1 RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>345</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>03CE8C26B04477A2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>42350.5011</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>37114.2061</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9622668689167,1.351918773633763,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00060">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes.
+Opens Mon to Sat 10:30am to 7:30 pm, Sun 11am to 6pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-12</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Ubi Road</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>408726</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>B&amp;L Light Bath Pte Ltd - 1 Wintech Centre</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>6</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>4757E4E703E7D2B1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>34711.7028</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>34295.7837</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8936268722432,1.32643266718903,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00061">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes.
+Opens Mon 11:30am to 7:30pm, Tue to Sun 11:30am to 8pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-06</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Siglap Road</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>455871</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Three Cubes</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>55</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>30A0A50A2CE876E3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>37999.3991</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>32766.9624</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9231680918868,1.312605663009228,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00062">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes.
+Opens 10am to 11pm daily</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Alexandra Road</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>159965</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>IKEA</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>317</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>C5CBB371491BF45C</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>24938.391</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>30043.1933</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8058087758036,1.287974329078683,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00063">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes.
+Opens 10am to 11pm daily</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Tampines North Drive</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>528764</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>IKEA</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>60</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>EEA73EFD9D7437FF</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>6/2/2017 5:16:15 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>39028.1884</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>39569.1353</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.9324147381879,1.374121655864752,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00064">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8.30am to 1.00pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-66</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Jurong West Street 65</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>641674</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Boon Lay Zone F RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>674A</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>876A6A0036E41673</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>4/28/2015 12:09:40 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>13420.7553</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>36289.6108</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.7023152868278,1.344461335110134,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00065">
+      <name>Lightbulb/Lamp Recycling Points</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>SHAPE</td>
+<td>Point</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>LANDYADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>LANDXADDRESSPOINT</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PHOTOURL</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>HYPERLINK</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>DESCRIPTION</td>
+<td>Recycle your old lightbulbs and florescent tubes. 
+Opens daily 8.30am to 12.30pm</td>
+</tr>
+<tr>
+<td>ADDRESSUNITNUMBER</td>
+<td>#01-142</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSSTREETNAME</td>
+<td>Telok Blangah Drive</td>
+</tr>
+<tr>
+<td>ADDRESSPOSTALCODE</td>
+<td>100051</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSFLOORNUMBER</td>
+<td>&lt;Null&gt;</td>
+</tr>
+<tr>
+<td>ADDRESSBUILDINGNAME</td>
+<td>Blangah View RC</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>ADDRESSBLOCKHOUSENUMBER</td>
+<td>51</td>
+</tr>
+<tr>
+<td>INC_CRC</td>
+<td>F02801987E66E63F</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>FMEL_UPD_D</td>
+<td>4/28/2015 12:09:40 PM</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>Lightbulb/Lamp Recycling Points</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_ADDR</td>
+<td>25376.4055</td>
+</tr>
+<tr>
+<td>Y_ADDR</td>
+<td>28441.9232</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 103.8097446458228,1.273493044647171,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>Layer0_Symbol_18e92a90.png</href></Icon>
+      <scale>0.250000</scale>
+    </IconStyle>
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <PolyStyle>
+      <color>ff000000</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>

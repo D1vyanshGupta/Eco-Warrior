@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">E-waste warrior</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="action_sign_out">Sign Out</string>
+
+
+    <string name="screen_1_title">E-waste warrior</string>
+    <string name="screen_1_desc">This application will empower you to save the earth! </string>
+
+    <string name="screen_2_title">Secret Bases</string>
+    <string name="screen_2_desc">We will guide you to our secret bases: the recycling points.</string>
+
+    <string name="screen_3_title">DIY Videos</string>
+    <string name="screen_3_desc">Explore DIY videos and get inspirations from your alliances!</string>
+
+    <string name="screen_4_title">Green rank</string>
+    <string name="screen_4_desc">Continue to recycle and be promoted to higher green rank!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
