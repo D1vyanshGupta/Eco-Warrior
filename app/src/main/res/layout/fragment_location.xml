@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
     <LinearLayout
         android:id="@+id/e_waste_layout"
+        android:clickable="true"
         android:layout_margin="10dp"
         android:layout_weight="1"
         android:background="@color/waste_card_color"
