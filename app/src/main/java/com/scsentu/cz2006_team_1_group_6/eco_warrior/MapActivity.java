@@ -9,6 +9,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.maps.android.data.kml.KmlLayer;
 
@@ -22,7 +23,7 @@ import java.io.IOException;
  * Fragment.
  */
 
-public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
+public class MapActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnInfoWindowClickListener {
 
     private static final String TAG = "MapActivity";
 
@@ -54,10 +55,20 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
             KmlLayer kml = new KmlLayer(googleMap,kml_ref    ,getApplicationContext());
             kml.addLayerToMap();
 
+            CustomInfoWindowAdapter customInfoWindowAdapter = new CustomInfoWindowAdapter(this);
+            mMap.setInfoWindowAdapter(customInfoWindowAdapter);
+
+            mMap.setOnInfoWindowClickListener(this);
+
         } catch(XmlPullParserException e){
             Log.d(TAG, "error: " + e.getMessage());
         } catch (IOException e){
             Log.d(TAG, "error: " + e.getMessage());
         }
+    }
+
+    @Override
+    public void onInfoWindowClick(Marker marker) {
+        Log.d(TAG, Utils.getMarkerInfo(marker));
     }
 }
