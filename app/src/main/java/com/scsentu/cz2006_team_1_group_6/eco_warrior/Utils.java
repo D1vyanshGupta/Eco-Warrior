@@ -17,20 +17,32 @@ public class Utils {
         HashMap<String, String> infoHashMap = new HashMap<String, String>();
         String[] keyArray = {"PHOTOURL", "HYPERLINK", "DESCRIPTION", "ADDRESSUNITNUMBER",
                              "ADDRESSSTREETNAME", "ADDRESSPOSTALCODE", "ADDRESSFLOORNUMBER", "ADDRESSBUILDINGNAME",
-                             "ADDRESSBLOCKHOUSENUMBER", "NAME"};
+                             "ADDRESSBLOCKHOUSENUMBER", "NAME", "DESCRIPTION"};
 
         String markerInfo = marker.getSnippet();
 
-        for(String keyIterator : keyArray){
+        if(markerInfo == null || markerInfo.length() == 0)
+            return null;
 
-            String regexString = "(?<=(<th>" + keyIterator + "</th>[\\r\\n]<td>))(.*)(?=</td>)";
-            Pattern regexPattern = Pattern.compile(regexString);
-            Matcher regexMatcher = regexPattern.matcher(markerInfo);
+        markerInfo = markerInfo.replaceAll("\\s", "");
+
+        for(String keyIterator : keyArray){
+            String regexStringOne = "(?<=(<th>" + keyIterator + "</th><td>))(.*?)(?=</td>)";
+            Pattern regexPatternOne = Pattern.compile(regexStringOne);
+            Matcher regexMatcherOne = regexPatternOne.matcher(markerInfo);
 
             String keyInfo = "";
 
-            if(regexMatcher.find())
-                keyInfo = regexMatcher.group();
+            if(regexMatcherOne.find())
+                keyInfo = regexMatcherOne.group();
+            else{
+                String regexStringTwo = "(?<=(<td>" + keyIterator + "</td><td>))(.*?)(?=</td>)";
+                Pattern regexPatternTwo = Pattern.compile(regexStringTwo);
+                Matcher regexMatcherTwo = regexPatternTwo.matcher(markerInfo);
+
+                if(regexMatcherTwo.find())
+                    keyInfo = regexMatcherTwo.group();
+            }
 
             infoHashMap.put(keyIterator, keyInfo);
         }

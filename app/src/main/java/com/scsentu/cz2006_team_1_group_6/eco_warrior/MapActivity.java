@@ -16,6 +16,7 @@ import com.google.maps.android.data.kml.KmlLayer;
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 /**
  * This class takes in an integer which is a reference to a kml file,

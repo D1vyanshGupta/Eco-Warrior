@@ -29,19 +29,58 @@ public class CustomInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
     public View getInfoContents(Marker marker) {
         View infoWindowView = mLayoutInflater.inflate(R.layout.custom_info_window, null);
         TextView nameTV = (TextView) infoWindowView.findViewById(R.id.info_window_marker_name);
+        TextView descriptionTV = (TextView) infoWindowView.findViewById(R.id.info_window_marker_description);
         TextView addressTV = (TextView) infoWindowView.findViewById(R.id.info_window_marker_address);
 
         HashMap<String, String> infoHashMap = Utils.getMarkerInfo(marker);
-        nameTV.setText(infoHashMap.get("NAME"));
-        infoHashMap.remove("NAME");
-        String addressInfo = "";
 
-        for(String keyIterator : infoHashMap.keySet()){
-            addressInfo += keyIterator + "  -->  " + infoHashMap.get(keyIterator) + "\n";
+        if(infoHashMap == null){
+            nameTV.setText("No information available.");
+            return infoWindowView;
         }
-        addressTV.setText(addressInfo);
+
+        String nameString = "N/A";
+        if(infoHashMap.get("NAME") != null && infoHashMap.get("NAME").length() > 0)
+            nameString = infoHashMap.get("NAME");
+
+        nameTV.setText("Name: " + nameString);
+
+        String description = "N/A";
+
+        if(infoHashMap.get("DESCRIPTION") != null && infoHashMap.get("DESCRIPTION").length() > 0)
+            description = infoHashMap.get("DESCRIPTION");
+
+        descriptionTV.setText("Description: " + description);
+
+        String streetName = "N/A";
+        String buildingName = "N/A";
+        String blockNumber = "N/A";
+        String unitNumber = "N/A";
+        String postalCode = "N/A";
+
+        if(infoHashMap.get("ADDRESSSTREETNAME") != null && infoHashMap.get("ADDRESSSTREETNAME").length() > 0)
+            streetName = infoHashMap.get("ADDRESSSTREETNAME");
+
+        if(infoHashMap.get("ADDRESSBUILDINGNAME") != null && infoHashMap.get("ADDRESSBUILDINGNAME").length() > 0)
+            buildingName = infoHashMap.get("ADDRESSBUILDINGNAME");
+
+        if(infoHashMap.get("ADDRESSBLOCKHOUSENUMBER") != null && infoHashMap.get("ADDRESSBLOCKHOUSENUMBER").length() > 0)
+            blockNumber = infoHashMap.get("ADDRESSBLOCKHOUSENUMBER");
+
+        if(infoHashMap.get("ADDRESSUNITNUMBER") != null && infoHashMap.get("ADDRESSUNITNUMBER").length() > 0)
+            unitNumber = infoHashMap.get("ADDRESSUNITNUMBER");
+
+        if(infoHashMap.get("ADDRESSPOSTALCODE") != null && infoHashMap.get("ADDRESSPOSTALCODE").length() > 0)
+            postalCode = infoHashMap.get("ADDRESSPOSTALCODE");
+
+        String addressString = "Address: ";
+        addressString += streetName + "\n" +
+                         buildingName + ", " + blockNumber + "\n" +
+                         unitNumber + "\n" +
+                         postalCode + ", Singapore";
+
+        addressTV.setText(addressString);
+
         return infoWindowView;
     }
-
-
 }
