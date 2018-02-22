@@ -24,10 +24,12 @@ public class Utils {
         if(markerInfo == null || markerInfo.length() == 0)
             return null;
 
-        markerInfo = markerInfo.replaceAll("\\s", "");
+//        markerInfo = markerInfo.replaceAll("\\s", "");
+
+        markerInfo = markerInfo.replaceAll("\\r\\n|\\r|\\n", " ");
 
         for(String keyIterator : keyArray){
-            String regexStringOne = "(?<=(<th>" + keyIterator + "</th><td>))(.*?)(?=</td>)";
+            String regexStringOne = "(?<=(<th>" + keyIterator + "</th>(\\s)<td>))(.*?)(?=</td>)";
             Pattern regexPatternOne = Pattern.compile(regexStringOne);
             Matcher regexMatcherOne = regexPatternOne.matcher(markerInfo);
 
@@ -36,17 +38,44 @@ public class Utils {
             if(regexMatcherOne.find())
                 keyInfo = regexMatcherOne.group();
             else{
-                String regexStringTwo = "(?<=(<td>" + keyIterator + "</td><td>))(.*?)(?=</td>)";
+                String regexStringTwo = "(?<=(<td>" + keyIterator + "</td>))(.*?)(?=</tr>)";
                 Pattern regexPatternTwo = Pattern.compile(regexStringTwo);
                 Matcher regexMatcherTwo = regexPatternTwo.matcher(markerInfo);
 
-                if(regexMatcherTwo.find())
+                if(regexMatcherTwo.find()){
                     keyInfo = regexMatcherTwo.group();
+                    keyInfo = keyInfo.trim().replace("<td>", "").replace("</td>", "");
+                }
             }
 
             infoHashMap.put(keyIterator, keyInfo);
         }
 
         return infoHashMap;
+    }
+
+    public static void testSnippet(Marker marker){
+        Log.d(TAG, "-------------------------------------------------------");
+        if(marker.getSnippet() == null || marker.getSnippet().length() == 0)
+            Log.d(TAG, "Marker does not have snipped");
+
+        String markerInfo = marker.getSnippet();
+
+        markerInfo = markerInfo.replaceAll("\\r\\n|\\r|\\n", " ");
+
+        String regexStringOne = "(?<=(<td>" + "ADDRESSUNITNUMBER" + "</td>))(.*?)(?=</tr>)";
+        Pattern regexPatternOne = Pattern.compile(regexStringOne);
+        Matcher regexMatcherOne = regexPatternOne.matcher(markerInfo);
+
+        if(regexMatcherOne.find())
+            Log.d(TAG, regexMatcherOne.group());
+        else
+            Log.d(TAG, "Bhai kuchh nahi mila");
+
+        Log.d(TAG, markerInfo);
+
+
+
+        Log.d(TAG, "-------------------------------------------------------");
     }
 }
