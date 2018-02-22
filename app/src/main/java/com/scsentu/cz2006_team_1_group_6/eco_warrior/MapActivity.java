@@ -52,7 +52,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
             mMap.addMarker(new MarkerOptions().position(singapore).title("Marker is on"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(singapore));
 
-            KmlLayer kml = new KmlLayer(googleMap,kml_ref    ,getApplicationContext());
+            KmlLayer kml = new KmlLayer(googleMap,kml_ref ,getApplicationContext());
             kml.addLayerToMap();
 
             CustomInfoWindowAdapter customInfoWindowAdapter = new CustomInfoWindowAdapter(this);
@@ -69,6 +69,5 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
     @Override
     public void onInfoWindowClick(Marker marker) {
-        Log.d(TAG, Utils.getMarkerInfo(marker));
     }
 }

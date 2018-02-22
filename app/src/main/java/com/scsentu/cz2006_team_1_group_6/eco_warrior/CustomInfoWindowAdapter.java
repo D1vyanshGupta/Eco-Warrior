@@ -8,6 +8,8 @@ import android.widget.TextView;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.Marker;
 
+import java.util.HashMap;
+
 public class CustomInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
 
     private Context mContext;
@@ -26,11 +28,18 @@ public class CustomInfoWindowAdapter implements GoogleMap.InfoWindowAdapter{
     @Override
     public View getInfoContents(Marker marker) {
         View infoWindowView = mLayoutInflater.inflate(R.layout.custom_info_window, null);
+        TextView nameTV = (TextView) infoWindowView.findViewById(R.id.info_window_marker_name);
+        TextView addressTV = (TextView) infoWindowView.findViewById(R.id.info_window_marker_address);
 
-        TextView titleTV = (TextView) infoWindowView.findViewById(R.id.info_window_title);
-        TextView subTitleTV = (TextView) infoWindowView.findViewById(R.id.info_window_subtitle);
-        titleTV.setText(marker.getTitle());
-        subTitleTV.setText(marker.getSnippet());
+        HashMap<String, String> infoHashMap = Utils.getMarkerInfo(marker);
+        nameTV.setText(infoHashMap.get("NAME"));
+        infoHashMap.remove("NAME");
+        String addressInfo = "";
+
+        for(String keyIterator : infoHashMap.keySet()){
+            addressInfo += keyIterator + "  -->  " + infoHashMap.get(keyIterator) + "\n";
+        }
+        addressTV.setText(addressInfo);
         return infoWindowView;
     }
 
