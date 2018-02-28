@@ -35,4 +35,7 @@
     <string name="waste_new_deposit_title" translatable="true">New Waste Amount Deposited (kg):</string>
     <string name="confirm_waste_btn_title" translatable="true">Confirm</string>
     <string name="get_directions_on_google_maps" translatable="true">Get directions on Google Maps</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile_edit_action" translatable="true">Edit Profile</string>
 </resources>
