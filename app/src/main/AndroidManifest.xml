@@ -31,9 +31,9 @@
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".MapActivity" />
         <activity
-            android:name=".MarkerDialogActivity"
-            android:parentActivityName=".MapActivity"
-            android:theme="@android:style/Theme.Holo.Dialog"/>
+            android:name=".SignUpActivity"
+            android:parentActivityName=".MainActivity"
+            />
     </application>
 
 </manifest>

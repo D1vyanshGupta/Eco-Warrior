@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText mEmail, mPassword;
     private Button btnSignIn;
+    private Button btnSignUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         mPassword = (EditText) findViewById(R.id.password);
 
         btnSignIn = (Button) findViewById(R.id.email_sign_in_button);
+        btnSignUp = (Button) findViewById(R.id.email_sign_up_button);
 
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +66,14 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     makeToast("Please type in the Email and Password");
                 }
+            }
+        });
+
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent signUpIntent = new Intent(MainActivity.this, SignUpActivity.class);
+                startActivity(signUpIntent);
             }
         });
 

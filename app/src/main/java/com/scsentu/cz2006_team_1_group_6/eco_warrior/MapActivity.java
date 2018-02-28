@@ -76,7 +76,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
         Double longitude = marker.getPosition().longitude;
         String geoString = "google.navigation:" + "q=" + latitude + "," + longitude;
         Uri gmmIntentUri = Uri.parse(geoString);
-        
+
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
 
         mapIntent.setPackage("com.google.android.apps.maps");
