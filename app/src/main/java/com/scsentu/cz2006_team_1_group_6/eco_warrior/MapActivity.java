@@ -1,8 +1,11 @@
 package com.scsentu.cz2006_team_1_group_6.eco_warrior;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -69,6 +72,20 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
     @Override
     public void onInfoWindowClick(Marker marker) {
-        Utils.testSnippet(marker);
+        Double latitude = marker.getPosition().latitude;
+        Double longitude = marker.getPosition().longitude;
+        String geoString = "google.navigation:" + "q=" + latitude + "," + longitude;
+        Uri gmmIntentUri = Uri.parse(geoString);
+        
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+
+        mapIntent.setPackage("com.google.android.apps.maps");
+
+        if(mapIntent.resolveActivity(getPackageManager()) != null){
+            startActivity(mapIntent);
+        }
+        else {
+            Toast.makeText(this, "Google Maps App not installed", Toast.LENGTH_SHORT).show();
+        }
     }
 }

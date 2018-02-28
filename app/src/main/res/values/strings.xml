@@ -29,4 +29,10 @@
     <string name="lightning_waste_title" translatable="true">Lightning Waste</string>
     <string name="second_hand_title" translatable="true">Second Hand Goods</string>
     <string name="cash_for_trash_title" translatable="true">Cash For Trash</string>
+    
+    <!-- MarkerDialogActivity -->
+    <string name="waste_deposited_title" translatable="true">Waste Deposited at this Location (kg):</string>
+    <string name="waste_new_deposit_title" translatable="true">New Waste Amount Deposited (kg):</string>
+    <string name="confirm_waste_btn_title" translatable="true">Confirm</string>
+    <string name="get_directions_on_google_maps" translatable="true">Get directions on Google Maps</string>
 </resources>
