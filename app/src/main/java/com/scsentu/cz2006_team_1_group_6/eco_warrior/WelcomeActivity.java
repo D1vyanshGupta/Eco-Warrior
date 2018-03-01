@@ -5,12 +5,8 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -44,7 +40,7 @@ public class WelcomeActivity extends AppCompatActivity {
                                 mSelectedFragment = AwardsFragment.newInstance();
                                 break;
                             case R.id.action_fragment_records:
-                                mSelectedFragment = RecordsFragment.newInstance();
+                                mSelectedFragment = LeaderBoardFragment.newInstance();
                                 break;
                             case R.id.action_fragment_profile:
                                 mSelectedFragment = ProfileFragment.newInstance();

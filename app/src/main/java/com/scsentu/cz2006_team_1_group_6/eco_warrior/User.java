@@ -28,7 +28,7 @@ public class User {
         String eWasteAmount = userSnapshot.child("eWaste").getValue().toString();
         String lightningWasteAmount = userSnapshot.child("lightningWaste").getValue().toString();
         String secondHandWasteAmount = userSnapshot.child("secondHandWaste").getValue().toString();
-        String cashForTrashAmount = userSnapshot.child("cashForTrash").getValue().toString();
+        String cashForTrashAmount = userSnapshot.child("cashForTrashWaste").getValue().toString();
 
         setUsername(username);
         setUserDescription(userDescription);

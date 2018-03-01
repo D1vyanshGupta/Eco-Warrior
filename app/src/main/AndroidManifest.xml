@@ -37,6 +37,10 @@
         <activity
             android:name=".ProfileEditActivity"
             android:theme="@android:style/Theme.Holo.Dialog"/>
+        <activity
+            android:name=".MarkerDialogActivity"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            />
     </application>
 
 </manifest>

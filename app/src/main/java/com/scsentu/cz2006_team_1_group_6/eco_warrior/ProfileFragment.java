@@ -61,9 +61,6 @@ public class ProfileFragment extends Fragment{
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                Log.d(TAG, "-------------------------------------");
-                Log.d(TAG, "onDataChanged: " + mUser.getUserID());
-                Log.d(TAG, "-------------------------------------");
                 mUser.setUserInfo(dataSnapshot.child("users"));
                 updateAllTextViews();
             }

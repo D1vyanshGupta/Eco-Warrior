@@ -34,11 +34,15 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
     private int kml_ref;
 
+    private String mWasteType;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
         kml_ref = getIntent().getIntExtra("kml_ref", 0);
+
+        findWasteType();
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -74,18 +78,33 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
     public void onInfoWindowClick(Marker marker) {
         Double latitude = marker.getPosition().latitude;
         Double longitude = marker.getPosition().longitude;
-        String geoString = "google.navigation:" + "q=" + latitude + "," + longitude;
-        Uri gmmIntentUri = Uri.parse(geoString);
 
-        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        Intent markerDialogIntent = new Intent(this, MarkerDialogActivity.class);
+        markerDialogIntent.putExtra("latitude", latitude);
+        markerDialogIntent.putExtra("longitude", longitude);
+        markerDialogIntent.putExtra("wasteType", mWasteType);
 
-        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(markerDialogIntent);
+    }
 
-        if(mapIntent.resolveActivity(getPackageManager()) != null){
-            startActivity(mapIntent);
-        }
-        else {
-            Toast.makeText(this, "Google Maps App not installed", Toast.LENGTH_SHORT).show();
+    private void findWasteType(){
+        switch (kml_ref){
+            case R.raw.e_waste_recycling_kml: {
+                mWasteType = "eWaste";
+                break;
+            }
+            case R.raw.lightning_waste_kml: {
+                mWasteType = "lightningWaste";
+                break;
+            }
+            case R.raw.second_hand_goods_collection_points_kml: {
+                mWasteType = "secondHandWaste";
+                break;
+            }
+            case R.raw.cash_for_trash_kml: {
+                mWasteType = "cashForTrashWaste";
+                break;
+            }
         }
     }
 }

@@ -117,6 +117,14 @@ public class SignUpActivity extends AppCompatActivity{
                                     String userID = user.getUid();
                                     mRef.child(userID).child("username").setValue(username);
                                     mRef.child(userID).child("userDescription").setValue(userDescription);
+                                    mRef.child(userID).child("eWaste").setValue(0.0);
+                                    mRef.child(userID).child("lightningWaste").setValue(0.0);
+                                    mRef.child(userID).child("secondHandWaste").setValue(0.0);
+                                    mRef.child(userID).child("cashForTrashWaste").setValue(0.0);
+                                    mRef.child(userID).child("eWasteRecords").child("0,0").setValue(0.0);
+                                    mRef.child(userID).child("lightningWasteRecords").child("0,0").setValue(0.0);
+                                    mRef.child(userID).child("secondHandWasteRecords").child("0,0").setValue(0.0);
+                                    mRef.child(userID).child("cashForTrashWasteRecords").child("0,0").setValue(0.0);
                                     startActivity(new Intent(SignUpActivity.this, MainActivity.class));
                                     finish();
                                 }
