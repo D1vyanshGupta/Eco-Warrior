@@ -50,7 +50,7 @@ public class MarkerDialogActivity extends Activity {
         mAuth = FirebaseAuth.getInstance();
         mUserID = mAuth.getCurrentUser().getUid();
         mFirebaseDatabase = FirebaseDatabase.getInstance();
-        mRef = mFirebaseDatabase.getReference().child("users").child(mUserID);
+        mRef = FirebaseDatabase.getInstance().getReference().child("users").child(mUserID);
 
         mLatitude = getIntent().getDoubleExtra("latitude", 0);
         mLongitude = getIntent().getDoubleExtra("longitude", 0);

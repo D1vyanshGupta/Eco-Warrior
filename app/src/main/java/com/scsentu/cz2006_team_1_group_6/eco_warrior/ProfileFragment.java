@@ -3,7 +3,6 @@ package com.scsentu.cz2006_team_1_group_6.eco_warrior;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -61,7 +60,7 @@ public class ProfileFragment extends Fragment{
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                mUser.setUserInfo(dataSnapshot.child("users"));
+                mUser.updateUserInfo(dataSnapshot.child("users"));
                 updateAllTextViews();
             }
 

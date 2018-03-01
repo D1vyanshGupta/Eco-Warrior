@@ -9,6 +9,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class WelcomeActivity extends AppCompatActivity {
 
@@ -16,6 +21,9 @@ public class WelcomeActivity extends AppCompatActivity {
 
     private BottomNavigationView mBottomNavigationView;
     private Fragment mSelectedFragment;
+
+    private User mUser;
+    private DatabaseReference mRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +64,21 @@ public class WelcomeActivity extends AppCompatActivity {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.fragment_container, LocationFragment.newInstance());
         transaction.commit();
+
+        mUser = new User(FirebaseAuth.getInstance().getCurrentUser());
+
+        mRef = FirebaseDatabase.getInstance().getReference().child("users");
+        mRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                mUser.updateUserInfo(dataSnapshot);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
     @Override
