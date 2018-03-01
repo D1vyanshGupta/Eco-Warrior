@@ -41,6 +41,7 @@
             android:name=".MarkerDialogActivity"
             android:theme="@android:style/Theme.Holo.Dialog"
             />
+        <activity android:name=".LeaderBoardWasteActivity"/>
     </application>
 
 </manifest>

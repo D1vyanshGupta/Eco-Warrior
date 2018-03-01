@@ -39,7 +39,7 @@ public class WelcomeActivity extends AppCompatActivity {
                             case R.id.action_fragment_awards:
                                 mSelectedFragment = AwardsFragment.newInstance();
                                 break;
-                            case R.id.action_fragment_records:
+                            case R.id.action_fragment_leaderboard:
                                 mSelectedFragment = LeaderBoardFragment.newInstance();
                                 break;
                             case R.id.action_fragment_profile:

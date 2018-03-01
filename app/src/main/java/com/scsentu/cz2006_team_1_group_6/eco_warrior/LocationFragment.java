@@ -3,13 +3,10 @@ package com.scsentu.cz2006_team_1_group_6.eco_warrior;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 public class LocationFragment extends Fragment {
 
@@ -34,7 +31,7 @@ public class LocationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View fragmentView =  inflater.inflate(R.layout.fragment_location, container, false);
 
-        eWasteLayout = (LinearLayout) fragmentView.findViewById(R.id.e_waste_layout);
+        eWasteLayout = (LinearLayout) fragmentView.findViewById(R.id.e_waste_layout_location);
         eWasteLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -44,7 +41,7 @@ public class LocationFragment extends Fragment {
             }
         });
 
-        lightningWasteLayout = (LinearLayout) fragmentView.findViewById(R.id.lightning_waste_layout);
+        lightningWasteLayout = (LinearLayout) fragmentView.findViewById(R.id.lightning_waste_layout_location);
         lightningWasteLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -54,7 +51,7 @@ public class LocationFragment extends Fragment {
             }
         });
 
-        secondHandLayout = (LinearLayout) fragmentView.findViewById(R.id.second_hand_layout);
+        secondHandLayout = (LinearLayout) fragmentView.findViewById(R.id.second_hand_layout_location);
         secondHandLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -64,7 +61,7 @@ public class LocationFragment extends Fragment {
             }
         });
 
-        cashForTrashLayout = (LinearLayout) fragmentView.findViewById(R.id.cash_for_trash_layout);
+        cashForTrashLayout = (LinearLayout) fragmentView.findViewById(R.id.cash_for_trash_layout_location);
         cashForTrashLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -57,7 +57,7 @@ public class SignUpActivity extends AppCompatActivity{
 
         mAuth = FirebaseAuth.getInstance();
         mFirebaseDatabase = FirebaseDatabase.getInstance();
-        mRef = mFirebaseDatabase.getReference();
+        mRef = mFirebaseDatabase.getReference().child("users");
 
         mRef.addValueEventListener(new ValueEventListener() {
             @Override

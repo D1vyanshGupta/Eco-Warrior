@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mAuth = FirebaseAuth.getInstance();
+//        mAuth.signOut();
 
         Log.d(TAG, "onCreate:");
 

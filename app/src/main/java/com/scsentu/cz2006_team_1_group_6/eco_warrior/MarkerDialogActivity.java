@@ -128,7 +128,7 @@ public class MarkerDialogActivity extends Activity {
 
     private void writeWasteAmountToFirebase(Double newWasteAmount){
         Double totalAmountAtLocation = newWasteAmount + mWasteAmountAtLocation;
-        mRef.child(mWasteType + "Records").child(mCoordinateString).setValue(Double.toString(totalAmountAtLocation));
+        mRef.child(mWasteType + "Records").child(mCoordinateString).setValue(totalAmountAtLocation);
 
         DatabaseReference dbRef = mFirebaseDatabase.getReference().child("users").child(mUserID);
         Double newTotalWasteAmount = mTotalWasteAmount + newWasteAmount;

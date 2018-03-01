@@ -20,7 +20,7 @@
         android:title="Awards"
         app:showAsAction="always|withText"/>
     <item
-        android:id="@+id/action_fragment_records"
+        android:id="@+id/action_fragment_leaderboard"
         android:enabled="true"
         android:icon="@drawable/ic_record"
         android:title="Records"
