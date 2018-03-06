@@ -2,9 +2,11 @@ package com.scsentu.cz2006_team_1_group_6.eco_warrior;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -64,9 +66,10 @@ public class VideosAdapter extends BaseAdapter {
         videoNameTV.setText(videoName);
 
         String imageUrl = "https://img.youtube.com/vi/" + videoUrl + "/1.jpg";
-        Pair<ImageView, String> imageViewTuple = new Pair<ImageView, String>(videoImageView, imageUrl);
 
-        new VideosAdapter.SetVideoThumbnailTask().execute(imageViewTuple);
+        SetVideoThumbnailTask asyncTask = new VideosAdapter.SetVideoThumbnailTask(videoImageView);
+        asyncTask.execute(imageUrl);
+
 
         currentView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,13 +83,18 @@ public class VideosAdapter extends BaseAdapter {
         return currentView;
     }
 
-    private class SetVideoThumbnailTask extends AsyncTask<Pair<ImageView, String>, Void, Void> {
+    public class SetVideoThumbnailTask extends AsyncTask<String, Void, Bitmap> {
+
+        private static final String TAG = "SetVideoThumbnailTask";
+        private ImageView mImageView;
+
+        public SetVideoThumbnailTask(ImageView imageView){
+            mImageView = imageView;
+        }
 
         @Override
-        protected Void doInBackground(Pair<ImageView, String>... params) {
-            Pair<ImageView, String> imageViewTuple = params[0];
-            ImageView thumbnailImageView = imageViewTuple.first;
-            String imageUrl = imageViewTuple.second;
+        protected Bitmap doInBackground(String... params) {
+            String imageUrl = params[0];
             try {
 
                 URL myFileUrl = new URL (imageUrl);
@@ -96,14 +104,19 @@ public class VideosAdapter extends BaseAdapter {
                 conn.connect();
 
                 InputStream is = conn.getInputStream();
-                thumbnailImageView.setImageBitmap(BitmapFactory.decodeStream(is));
+                return BitmapFactory.decodeStream(is);
 
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
             } catch (Exception e) {
-                e.printStackTrace();
+                Log.e(TAG, e.getMessage());
+                return null;
             }
-            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Bitmap bitmap) {
+            if(bitmap != null) {
+                mImageView.setImageBitmap(bitmap);
+            }
         }
     }
 }

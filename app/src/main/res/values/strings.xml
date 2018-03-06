@@ -8,6 +8,8 @@
     <string name="sign_up">SIGN UP</string>
     <string name="action_sign_out">Sign Out</string>
 
+    <!-- Google Maps API Key -->
+    <string name="google_maps_api_key">AIzaSyAUMU0wvDp7ymTH-b7GC3X2FDtHDHKZrKk</string>
 
     <string name="screen_1_title">E-waste warrior</string>
     <string name="screen_1_desc">This application will empower you to save the earth! </string>
