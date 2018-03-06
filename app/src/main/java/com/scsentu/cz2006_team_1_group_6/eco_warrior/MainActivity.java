@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 //        mAuth.signOut();
 
-        Log.d(TAG, "onCreate:");
+//        Log.d(TAG, "onCreate:");
 
         mAuthListener = new FirebaseAuth.AuthStateListener(){
             @Override
@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if(user != null){
                     Log.d(TAG, "onAuthStateChanged: Signed in: " + user.getUid());
-                    makeToast("Successfully Signed in with: " + user.getEmail());
+//                    makeToast("Successfully Signed in with: " + user.getEmail());
                     Intent intent = new Intent(MainActivity.this, WelcomeActivity.class);
                     startActivity(intent);
                 } else {
                     Log.d(TAG, "onAuthStateChanged: signed_out");
-                    makeToast("Successfully Signed Out.");
+//                    makeToast("Successfully Signed Out.");
                 }
             }
         };

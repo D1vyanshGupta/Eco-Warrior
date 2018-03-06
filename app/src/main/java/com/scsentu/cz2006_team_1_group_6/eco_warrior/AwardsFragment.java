@@ -72,14 +72,9 @@ public class AwardsFragment extends Fragment {
 
         return fragmentView;
     }
-
-//  TODO Have to delete the log here?
     private void getAwardsList(ArrayList<Award> awardsList){
         awardsArrayList = new ArrayList<>();
         for(Award awardIterator : awardsList){
-            Log.d(TAG, "--------------------------------------");
-            Log.d(TAG, awardIterator.getTitle());
-            Log.d(TAG, "--------------------------------------");
             String awardString = awardIterator.getTitle() + " - " + awardIterator.getIsLocked();
             awardsArrayList.add(awardString);
         }
