@@ -6,16 +6,20 @@ public class Award {
     private String mRequirement;
     private String mWasteType;
     private Double mWasteAmount;
-    private Double mProgressPercentage;
+    private Double mCurrentWasteAmount;
     private Boolean mIsLocked;
+    private int mImagePath;
 
-    public Award(String title, String requirement, String wasteType, Double wasteAmount){
+    public Award(String title, String requirement, String wasteType, Double wasteAmount, int imagePath){
         mTitle = title;
         mRequirement = requirement;
         mWasteType = wasteType;
         mWasteAmount = wasteAmount;
         mIsLocked = true;
+        mImagePath = imagePath;
+        mCurrentWasteAmount = 0.0;
     }
+
 
     public Boolean getIsLocked() {
         return mIsLocked;
@@ -57,11 +61,20 @@ public class Award {
         this.mWasteAmount = mWasteAmount;
     }
 
-    public Double getProgressPercentage() {
-        return mProgressPercentage;
+    public Double getCurrentWasteAmount() {
+        return mCurrentWasteAmount;
     }
 
-    public void setProgressPercentage(Double mProgressPercentage) {
-        this.mProgressPercentage = mProgressPercentage;
+    public void setCurrentWasteAmount(Double mCurrentWasteAmount) {
+        this.mCurrentWasteAmount = mCurrentWasteAmount;
     }
+
+    public int getImagePath() {
+        return mImagePath;
+    }
+
+    public void setImagePath(int mImagePath) {
+        this.mImagePath = mImagePath;
+    }
+
 }

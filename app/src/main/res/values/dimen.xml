@@ -11,4 +11,6 @@
     <dimen name="desc_padding">40dp</dimen>
     <dimen name="linearlayout_width">300dp</dimen>
     <dimen name="padding_width">24dp</dimen>
+    <dimen name="button_width">150dp</dimen>
+    <dimen name="button_height">40dp</dimen>
 </resources>

@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="92dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="20dp"/>
 
     <LinearLayout
         android:layout_width="@dimen/linearlayout_width"
@@ -51,48 +51,61 @@
                 android:hint="User Description" />
         </ScrollView>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="@dimen/linearlayout_width"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
-        <Button
-            android:id="@+id/email_sign_up_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:background="@color/colorPrimary"
-            android:text="@string/sign_up"
-            android:textColor="@android:color/white"
-            android:layout_marginRight="10dp"/>
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/email_sign_up_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/oval_shape"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/white" />
+
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="------------------------  or  ------------------------"
+            android:text="-----------------------  OR  -----------------------"
             android:textSize = "20dp"/>
-        <ImageView
-            android:id="@+id/facebookIcon"
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:layout_marginTop="10dp"
-            android:src="@drawable/sign_up_facebook" />
-        <ImageView
-            android:id="@+id/googleIcon"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/sign_up_google" />
+            android:paddingLeft="@dimen/padding_width"
+            android:paddingRight="@dimen/padding_width">
+
+            <Button
+                android:id="@+id/facebookIcon"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:background="@drawable/sign_up_facebook"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/googleIcon"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:background="@drawable/sign_up_google"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
     </LinearLayout>
+
+
 
     <ProgressBar
         android:id="@+id/progressBar"

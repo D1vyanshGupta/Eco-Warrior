@@ -2,8 +2,9 @@ package com.scsentu.cz2006_team_1_group_6.eco_warrior;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ArrayAdapter;
+import android.support.v7.widget.LinearLayoutManager;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -13,7 +14,12 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class LeaderBoardWasteActivity extends AppCompatActivity{
 
@@ -21,17 +27,22 @@ public class LeaderBoardWasteActivity extends AppCompatActivity{
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mRef;
 
-    private HashMap<String, Double> mRankingHashMap;
-    private ArrayList<String> mArrayList;
+    private ArrayList<String> mUserArrayList;
+    private ArrayList<Double> mRecycledAmountsList;
 
     private ListView mLeaderboardLV;
-
+    private TextView mLeaderboardTitle;
     private String mWasteType;
+
+    private User mUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leaderboard_waste);
+
+        mAuth = FirebaseAuth.getInstance();
+        mUser = new User(mAuth.getCurrentUser());
 
         mFirebaseDatabase = FirebaseDatabase.getInstance();
         mRef = mFirebaseDatabase.getReference().child("users");
@@ -40,16 +51,16 @@ public class LeaderBoardWasteActivity extends AppCompatActivity{
 
         mLeaderboardLV = (ListView) findViewById(R.id.waste_leaderboard_lv);
 
-        setTitle(mWasteType + " LeaderBoard");
+        mLeaderboardTitle = (TextView) findViewById(R.id.leaderboard_title);
 
+        mLeaderboardTitle.setText(mWasteType + " LeaderBoard");
         mRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 getRankingForWaste(dataSnapshot);
-                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(LeaderBoardWasteActivity.this, android.R.layout.simple_list_item_1, mArrayList);
-                mLeaderboardLV.setAdapter(arrayAdapter);
+                LeaderBoardAdapter adapter = new LeaderBoardAdapter(LeaderBoardWasteActivity.this, mUserArrayList, mRecycledAmountsList);
+                mLeaderboardLV.setAdapter(adapter);
             }
-
             @Override
             public void onCancelled(DatabaseError databaseError) {
 
@@ -58,15 +69,30 @@ public class LeaderBoardWasteActivity extends AppCompatActivity{
     }
 
     private void getRankingForWaste(DataSnapshot dataSnapshot){
-        mRankingHashMap = new HashMap<String, Double>();
+        HashMap<String, Double> rankingHashMap = new HashMap<String, Double>();
+
+        mUserArrayList = new ArrayList<String>();
+        mRecycledAmountsList = new ArrayList<Double>();
 
         for(DataSnapshot userSnapshot : dataSnapshot.getChildren()){
             String username = userSnapshot.child("username").getValue().toString();
             Double amountRecycled = Double.parseDouble(userSnapshot.child(mWasteType).getValue().toString());
-            mRankingHashMap.put(username, amountRecycled);
+            rankingHashMap.put(username, amountRecycled);
         }
 
-        mArrayList = (ArrayList) Utils.entriesSortedByValuesDescending(mRankingHashMap);
+        Set<Map.Entry<String, Double>> set = rankingHashMap.entrySet();
+        List<Map.Entry<String, Double>> list = new ArrayList<Map.Entry<String, Double>>(set);
+        Collections.sort( list, new Comparator<Map.Entry<String, Double>>()
+        {
+            public int compare( Map.Entry<String, Double> o1, Map.Entry<String, Double> o2 )
+            {
+                return (o2.getValue()).compareTo( o1.getValue() );
+            }
+        } );
 
+        for(Map.Entry<String, Double> entry:list){
+            mUserArrayList.add(entry.getKey());
+            mRecycledAmountsList.add(entry.getValue());
+        }
     }
 }

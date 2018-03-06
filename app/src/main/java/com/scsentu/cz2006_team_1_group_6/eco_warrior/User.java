@@ -1,7 +1,5 @@
 package com.scsentu.cz2006_team_1_group_6.eco_warrior;
 
-import android.util.Log;
-
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 
@@ -18,7 +16,6 @@ public class User {
     private String lightningWasteAmount;
     private String secondHandWasteAmount;
     private String cashForTrashAmount;
-
     private ArrayList<Award> mAwardsArrayList;
 
     public User(FirebaseUser user){
@@ -105,21 +102,54 @@ public class User {
         for(Award awardIterator : mAwardsArrayList){
             String wasteType = awardIterator.getWasteType();
             Double currentWasteAmount = Double.parseDouble(userSnapshot.child(wasteType).getValue().toString());
-            if(currentWasteAmount >= awardIterator.getWasteAmount())
+            awardIterator.setCurrentWasteAmount(currentWasteAmount);
+            if(currentWasteAmount >= awardIterator.getWasteAmount()){
                 awardIterator.setIsLocked(false);
+                switch (awardIterator.getTitle()){
+                    case "E-Waste Recruiter":
+                        awardIterator.setImagePath(R.drawable.e_waste10);
+                        break;
+                    case "E-Waste Warrior":
+                        awardIterator.setImagePath(R.drawable.e_waste50);
+                        break;
+                    case "Philanthropist":
+                        awardIterator.setImagePath(R.drawable.philanthropist);
+                        break;
+                    case "Millionare":
+                        awardIterator.setImagePath(R.drawable.millionaire);
+                        break;
+                    case "Flash":
+                        awardIterator.setImagePath(R.drawable.flash);
+                        break;
+                }
+
+            }
         }
     }
 
     private static ArrayList<Award> getDefaultAwardListForUser(){
-        String[] titleArray = {"E-Waste Recruiter", "E-Waste Warrior", "ABCDE", "GHHIKJH", "VVDGSVGD" };
-        String[] requirementArray = {"Recycle 10 kgs of E-Waste", "Recycle 20 kgs of E-Waste", "Recycle 30 kgs of E-Waste", "Recycle 40 kgs of E-Waste", "Recycle 50 kgs of E-Waste"};
-        String[] wasteType = {"eWaste", "eWaste", "eWaste", "eWaste","eWaste"};
-        Double[] wasteAmountArray = {10.0, 20.0, 30.0, 40.0, 50.0};
+        String[] titleArray = {"E-Waste Recruiter", "E-Waste Warrior", "Philanthropist", "Millionaire", "Flash" };
+
+        String[] requirementArray = {
+                "Recycle at least 10kg of E-waste, to unlock the award.",
+                "Recycle at least 50kg of E-waste, to unlock the award.",
+                "Recycle at least 30kg of lightning waste, to unlock the award.",
+                "Receive cash for at least 80kg trash, to unlock the award.",
+                "Donate at least 50kg second hand goods, to unlock the award."
+        };
+        String[] wasteType = {"eWaste", "eWaste", "lightningWaste", "cashForTrashWaste", "secondHandWaste"};
+        Double[] wasteAmountArray = {10.0, 50.0, 30.0, 80.0, 50.0};
+        int[] imagePath = {
+                R.drawable.e_waste10,
+                R.drawable.e_waste50,
+                R.drawable.philanthropist,
+                R.drawable.millionaire,
+                R.drawable.flash};
 
         ArrayList<Award> awardsList = new ArrayList<Award>();
 
         for(int i = 0; i < 5; ++i){
-            Award award = new Award(titleArray[i], requirementArray[i], wasteType[i], wasteAmountArray[i]);
+            Award award = new Award(titleArray[i], requirementArray[i], wasteType[i], wasteAmountArray[i], imagePath[i]);
             awardsList.add(award);
         }
 

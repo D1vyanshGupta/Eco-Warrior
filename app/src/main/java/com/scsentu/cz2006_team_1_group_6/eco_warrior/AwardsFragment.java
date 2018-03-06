@@ -3,12 +3,12 @@ package com.scsentu.cz2006_team_1_group_6.eco_warrior;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -27,7 +27,7 @@ public class AwardsFragment extends Fragment {
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mRef;
 
-    private ListView awardsLV;
+    private RecyclerView awardsRV;
     private User mUser;
     private ArrayList<String> awardsArrayList;
 
@@ -45,7 +45,7 @@ public class AwardsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View fragmentView =  inflater.inflate(R.layout.fragment_awards, container, false);
 
-        awardsLV = (ListView) fragmentView.findViewById(R.id.awards_lv);
+        awardsRV = (RecyclerView) fragmentView.findViewById(R.id.awards_rv);
 
         mAuth = FirebaseAuth.getInstance();
         mUser = new User(mAuth.getCurrentUser());
@@ -57,8 +57,11 @@ public class AwardsFragment extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mUser.updateUserInfo(dataSnapshot);
                 getAwardsList(mUser.getAwardsArrayList());
-                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, awardsArrayList);
-                awardsLV.setAdapter(arrayAdapter);
+                AwardsAdapter adapter = new AwardsAdapter(getContext(), mUser.getAwardsArrayList());
+                // Attach the adapter to the recyclerview to populate items
+                awardsRV.setAdapter(adapter);
+                // Set layout manager to position the items
+                awardsRV.setLayoutManager(new LinearLayoutManager(getContext()));
             }
 
             @Override
@@ -70,8 +73,9 @@ public class AwardsFragment extends Fragment {
         return fragmentView;
     }
 
+//  TODO Have to delete the log here?
     private void getAwardsList(ArrayList<Award> awardsList){
-        awardsArrayList = new ArrayList<String>();
+        awardsArrayList = new ArrayList<>();
         for(Award awardIterator : awardsList){
             Log.d(TAG, "--------------------------------------");
             Log.d(TAG, awardIterator.getTitle());
