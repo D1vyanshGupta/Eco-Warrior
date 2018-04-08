@@ -1,4 +1,4 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Activities;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
 public class ProfileEditActivity extends Activity{
 

@@ -1,7 +1,8 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Models;
 
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
 import java.util.ArrayList;
 

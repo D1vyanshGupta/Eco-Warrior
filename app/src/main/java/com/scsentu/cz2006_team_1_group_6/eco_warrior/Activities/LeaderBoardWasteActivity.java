@@ -1,8 +1,7 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -12,6 +11,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Adapters.LeaderBoardAdapter;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Models.User;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

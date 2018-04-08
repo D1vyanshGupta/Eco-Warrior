@@ -1,7 +1,6 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Adapters;
 
 import android.content.Context;
-import android.media.Image;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,11 +9,10 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import java.util.List;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Models.Award;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
-/**
- * Created by tony_zeng on 5/3/18.
- */
+import java.util.List;
 
 public class AwardsAdapter extends RecyclerView.Adapter<AwardsAdapter.ViewHolder>{
 

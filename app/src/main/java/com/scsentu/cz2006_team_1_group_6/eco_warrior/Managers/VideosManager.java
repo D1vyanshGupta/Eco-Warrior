@@ -1,32 +1,27 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers;
 
-import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.ListView;
 
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Adapters.VideosAdapter;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class VideosFragment extends Fragment {
+public class VideosManager extends Fragment {
 
-    private static final String TAG = "VideosFragment";
+    private static final String TAG = "VideosManager";
     private ListView videoThumbnailsLV;
 
 //    public ArrayList<VideosAdapter.SetVideoThumbnailTask> mAsyncTaskList;
 
-    public static VideosFragment newInstance() {
-        VideosFragment fragment = new VideosFragment();
+    public static VideosManager newInstance() {
+        VideosManager fragment = new VideosManager();
         return fragment;
     }
 

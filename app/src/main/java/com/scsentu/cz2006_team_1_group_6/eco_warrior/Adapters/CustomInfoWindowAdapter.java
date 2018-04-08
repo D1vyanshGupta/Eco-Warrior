@@ -1,4 +1,4 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.Marker;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Utils;
 
 import java.util.HashMap;
 

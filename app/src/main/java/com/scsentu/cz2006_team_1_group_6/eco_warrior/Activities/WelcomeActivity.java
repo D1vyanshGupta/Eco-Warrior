@@ -1,5 +1,6 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -9,11 +10,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers.AwardsManager;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers.LeaderBoardManager;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers.LocationManager;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers.ProfileManager;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers.VideosManager;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
 public class WelcomeActivity extends AppCompatActivity {
 
@@ -22,8 +24,8 @@ public class WelcomeActivity extends AppCompatActivity {
     private BottomNavigationView mBottomNavigationView;
     private Fragment mSelectedFragment;
 
-    private User mUser;
-    private DatabaseReference mRef;
+//    private User mUser;
+//    private DatabaseReference mRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,19 +41,19 @@ public class WelcomeActivity extends AppCompatActivity {
                         mSelectedFragment = null;
                         switch (item.getItemId()) {
                             case R.id.action_fragment_location:
-                                mSelectedFragment = LocationFragment.newInstance();
+                                mSelectedFragment = LocationManager.newInstance();
                                 break;
                             case R.id.action_fragment_videos:
-                                mSelectedFragment = VideosFragment.newInstance();
+                                mSelectedFragment = VideosManager.newInstance();
                                 break;
                             case R.id.action_fragment_awards:
-                                mSelectedFragment = AwardsFragment.newInstance();
+                                mSelectedFragment = AwardsManager.newInstance();
                                 break;
                             case R.id.action_fragment_leaderboard:
-                                mSelectedFragment = LeaderBoardFragment.newInstance();
+                                mSelectedFragment = LeaderBoardManager.newInstance();
                                 break;
                             case R.id.action_fragment_profile:
-                                mSelectedFragment = ProfileFragment.newInstance();
+                                mSelectedFragment = ProfileManager.newInstance();
                                 break;
                         }
                         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
@@ -62,23 +64,23 @@ public class WelcomeActivity extends AppCompatActivity {
                 });
 
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.fragment_container, LocationFragment.newInstance());
+        transaction.replace(R.id.fragment_container, LocationManager.newInstance());
         transaction.commit();
 
-        mUser = new User(FirebaseAuth.getInstance().getCurrentUser());
-
-        mRef = FirebaseDatabase.getInstance().getReference().child("users");
-        mRef.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                mUser.updateUserInfo(dataSnapshot);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
+//        mUser = new User(FirebaseAuth.getInstance().getCurrentUser());
+//
+//        mRef = FirebaseDatabase.getInstance().getReference().child("users");
+//        mRef.addListenerForSingleValueEvent(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//                mUser.updateUserInfo(dataSnapshot);
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//
+//            }
+//        });
     }
 
     @Override
@@ -90,10 +92,13 @@ public class WelcomeActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem menuItem) {
         if(menuItem.getItemId() == R.id.action_sign_out){
-            FirebaseAuth.getInstance().signOut();
+            FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+            firebaseAuth.signOut();
+            startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
             finish();
         }
         return super.onOptionsItemSelected(menuItem);
     }
+
 
 }

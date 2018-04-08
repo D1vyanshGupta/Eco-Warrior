@@ -20,7 +20,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_api_key"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,20 +28,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".MapActivity" />
         <activity
-            android:name=".SignUpActivity"
-            android:parentActivityName=".MainActivity"
+            android:name=".Activities.WelcomeActivity"
+            android:launchMode="singleTop"
+            />
+        <activity android:name=".Activities.MapActivity" />
+        <activity
+            android:name=".Activities.SignUpActivity"
+            android:parentActivityName=".Activities.MainActivity"
             />
         <activity
-            android:name=".ProfileEditActivity"
+            android:name=".Activities.ProfileEditActivity"
             android:theme="@android:style/Theme.Holo.Dialog"/>
         <activity
-            android:name=".MarkerDialogActivity"
+            android:name=".Activities.MarkerDialogActivity"
             android:theme="@android:style/Theme.Holo.Dialog"
             />
-        <activity android:name=".LeaderBoardWasteActivity"/>
+        <activity android:name=".Activities.LeaderBoardWasteActivity"/>
     </application>
 
 </manifest>

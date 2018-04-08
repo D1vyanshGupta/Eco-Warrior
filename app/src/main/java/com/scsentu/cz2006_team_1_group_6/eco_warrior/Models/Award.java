@@ -1,4 +1,4 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Models;
 
 public class Award {
 
@@ -20,7 +20,6 @@ public class Award {
         mCurrentWasteAmount = 0.0;
     }
 
-
     public Boolean getIsLocked() {
         return mIsLocked;
     }
@@ -41,24 +40,12 @@ public class Award {
         return mRequirement;
     }
 
-    public void setRequirement(String mRequirement) {
-        this.mRequirement = mRequirement;
-    }
-
     public String getWasteType() {
         return mWasteType;
     }
 
-    public void setWasteType(String mWasteType) {
-        this.mWasteType = mWasteType;
-    }
-
     public Double getWasteAmount() {
         return mWasteAmount;
-    }
-
-    public void setWasteAmount(Double mWasteAmount) {
-        this.mWasteAmount = mWasteAmount;
     }
 
     public Double getCurrentWasteAmount() {

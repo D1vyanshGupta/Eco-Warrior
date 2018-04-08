@@ -1,4 +1,4 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers;
 
 import android.content.Intent;
 import android.support.v4.app.Fragment;
@@ -8,17 +8,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-public class LocationFragment extends Fragment {
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Activities.MapActivity;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
-    private static final String TAG = "LocationFragment";
+public class LocationManager extends Fragment {
+
+    private static final String TAG = "LocationManager";
 
     private LinearLayout eWasteLayout;
     private LinearLayout lightningWasteLayout;
     private LinearLayout secondHandLayout;
     private LinearLayout cashForTrashLayout;
 
-    public static LocationFragment newInstance() {
-        LocationFragment fragment = new LocationFragment();
+    public static LocationManager newInstance() {
+        LocationManager fragment = new LocationManager();
         return fragment;
     }
 

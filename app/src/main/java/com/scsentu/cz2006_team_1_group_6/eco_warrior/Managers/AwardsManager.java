@@ -1,11 +1,10 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers;
 
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,12 +15,16 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Adapters.AwardsAdapter;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Models.Award;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Models.User;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
 import java.util.ArrayList;
 
-public class AwardsFragment extends Fragment {
+public class AwardsManager extends Fragment {
 
-    private static final String TAG = "AwardsFragment";
+    private static final String TAG = "AwardsManager";
 
     private FirebaseAuth mAuth;
     private FirebaseDatabase mFirebaseDatabase;
@@ -31,8 +34,8 @@ public class AwardsFragment extends Fragment {
     private User mUser;
     private ArrayList<String> awardsArrayList;
 
-    public static AwardsFragment newInstance() {
-        AwardsFragment fragment = new AwardsFragment();
+    public static AwardsManager newInstance() {
+        AwardsManager fragment = new AwardsManager();
         return fragment;
     }
 
@@ -58,9 +61,7 @@ public class AwardsFragment extends Fragment {
                 mUser.updateUserInfo(dataSnapshot);
                 getAwardsList(mUser.getAwardsArrayList());
                 AwardsAdapter adapter = new AwardsAdapter(getContext(), mUser.getAwardsArrayList());
-                // Attach the adapter to the recyclerview to populate items
                 awardsRV.setAdapter(adapter);
-                // Set layout manager to position the items
                 awardsRV.setLayoutManager(new LinearLayoutManager(getContext()));
             }
 

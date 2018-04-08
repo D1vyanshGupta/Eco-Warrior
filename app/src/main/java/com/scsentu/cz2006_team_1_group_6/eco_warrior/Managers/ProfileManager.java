@@ -1,4 +1,4 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,10 +17,13 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Activities.ProfileEditActivity;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Models.User;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
-public class ProfileFragment extends Fragment{
+public class ProfileManager extends Fragment{
 
-    private static final String TAG = "ProfileFragment";
+    private static final String TAG = "ProfileManager";
 
     private TextView usernameTV;
     private TextView userDescriptionTV;
@@ -36,8 +39,8 @@ public class ProfileFragment extends Fragment{
     private User mUser;
 
 
-    public static ProfileFragment newInstance() {
-        ProfileFragment fragment = new ProfileFragment();
+    public static ProfileManager newInstance() {
+        ProfileManager fragment = new ProfileManager();
         return fragment;
     }
 

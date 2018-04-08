@@ -1,5 +1,4 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
-
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,6 +22,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Utils;
 
 public class SignUpActivity extends AppCompatActivity{
 
@@ -59,6 +60,11 @@ public class SignUpActivity extends AppCompatActivity{
         mFirebaseDatabase = FirebaseDatabase.getInstance();
         mRef = mFirebaseDatabase.getReference().child("users");
 
+        // Observer Pattern
+        // ValueListener is the Observer.
+        // FireBase is the subject.
+        // Whenever the FireBase data changes, a notification along with the changed data is sent to
+        // ValueListener
         mRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -86,17 +92,17 @@ public class SignUpActivity extends AppCompatActivity{
                 final String userDescription = mUserDescriptionEditText.getText().toString().trim();
 
                 if (TextUtils.isEmpty(email)) {
-                    Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
+                    makeToast("Enter valid Email Address");
                     return;
                 }
 
                 if (TextUtils.isEmpty(password)) {
-                    Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
+                    makeToast("Enter valid Password");
                     return;
                 }
 
                 if (password.length() < 6) {
-                    Toast.makeText(getApplicationContext(), "Password too short, enter minimum 6 characters!", Toast.LENGTH_SHORT).show();
+                    makeToast("Password too short, enter minimum 6 characters");
                     return;
                 }
 
@@ -106,25 +112,15 @@ public class SignUpActivity extends AppCompatActivity{
                         .addOnCompleteListener(SignUpActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
-                                Toast.makeText(SignUpActivity.this, "createUserWithEmail:onComplete:" + task.isSuccessful(), Toast.LENGTH_SHORT).show();
                                 mProgressBar.setVisibility(View.GONE);
 
                                 if(!task.isSuccessful()){
-                                    Toast.makeText(SignUpActivity.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
+                                    makeToast(task.getException().getMessage());
                                 }
                                 else {
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     String userID = user.getUid();
-                                    mRef.child(userID).child("username").setValue(username);
-                                    mRef.child(userID).child("userDescription").setValue(userDescription);
-                                    mRef.child(userID).child("eWaste").setValue(0.0);
-                                    mRef.child(userID).child("lightningWaste").setValue(0.0);
-                                    mRef.child(userID).child("secondHandWaste").setValue(0.0);
-                                    mRef.child(userID).child("cashForTrashWaste").setValue(0.0);
-                                    mRef.child(userID).child("eWasteRecords").child("0,0").setValue(0.0);
-                                    mRef.child(userID).child("lightningWasteRecords").child("0,0").setValue(0.0);
-                                    mRef.child(userID).child("secondHandWasteRecords").child("0,0").setValue(0.0);
-                                    mRef.child(userID).child("cashForTrashWasteRecords").child("0,0").setValue(0.0);
+                                    Utils.createUserInFirebaseDB(mRef, userID, username, userDescription);
                                     startActivity(new Intent(SignUpActivity.this, MainActivity.class));
                                     finish();
                                 }
@@ -132,5 +128,9 @@ public class SignUpActivity extends AppCompatActivity{
                         });
             }
         });
+    }
+
+    private void makeToast(String message){
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }

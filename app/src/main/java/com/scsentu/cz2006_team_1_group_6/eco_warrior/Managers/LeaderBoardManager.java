@@ -1,4 +1,4 @@
-package com.scsentu.cz2006_team_1_group_6.eco_warrior;
+package com.scsentu.cz2006_team_1_group_6.eco_warrior.Managers;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,17 +8,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-public class LeaderBoardFragment extends Fragment{
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.Activities.LeaderBoardWasteActivity;
+import com.scsentu.cz2006_team_1_group_6.eco_warrior.R;
 
-    private static final String TAG = "LeaderBoardFragment";
+public class LeaderBoardManager extends Fragment{
+
+    private static final String TAG = "LeaderBoardManager";
 
     private LinearLayout eWasteLayout;
     private LinearLayout lightningWasteLayout;
     private LinearLayout secondHandLayout;
     private LinearLayout cashForTrashLayout;
 
-    public static LeaderBoardFragment newInstance() {
-        LeaderBoardFragment fragment = new LeaderBoardFragment();
+    public static LeaderBoardManager newInstance() {
+        LeaderBoardManager fragment = new LeaderBoardManager();
         return fragment;
     }
 
