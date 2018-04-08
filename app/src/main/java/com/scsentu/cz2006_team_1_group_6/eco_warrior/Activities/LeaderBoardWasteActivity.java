@@ -60,6 +60,8 @@ public class LeaderBoardWasteActivity extends AppCompatActivity{
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 getRankingForWaste(dataSnapshot);
+                mUserArrayList = new ArrayList<String>(mUserArrayList.subList(0, 5));
+                mRecycledAmountsList = new ArrayList<Double>(mRecycledAmountsList.subList(0, 5));
                 LeaderBoardAdapter adapter = new LeaderBoardAdapter(LeaderBoardWasteActivity.this, mUserArrayList, mRecycledAmountsList);
                 mLeaderboardLV.setAdapter(adapter);
             }

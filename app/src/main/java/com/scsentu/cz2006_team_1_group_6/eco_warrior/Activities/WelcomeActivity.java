@@ -66,21 +66,6 @@ public class WelcomeActivity extends AppCompatActivity {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.fragment_container, LocationManager.newInstance());
         transaction.commit();
-
-//        mUser = new User(FirebaseAuth.getInstance().getCurrentUser());
-//
-//        mRef = FirebaseDatabase.getInstance().getReference().child("users");
-//        mRef.addListenerForSingleValueEvent(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(DataSnapshot dataSnapshot) {
-//                mUser.updateUserInfo(dataSnapshot);
-//            }
-//
-//            @Override
-//            public void onCancelled(DatabaseError databaseError) {
-//
-//            }
-//        });
     }
 
     @Override

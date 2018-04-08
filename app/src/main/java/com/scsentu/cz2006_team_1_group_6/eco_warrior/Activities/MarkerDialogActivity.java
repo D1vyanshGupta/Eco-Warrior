@@ -85,7 +85,18 @@ public class MarkerDialogActivity extends Activity {
                     Toast.makeText(MarkerDialogActivity.this, "Please enter a correct amount.", Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    writeWasteAmountToFirebase(Double.parseDouble(newWasteAmount));
+                    Double amount = 0.0;
+                    try{
+                        amount = Double.parseDouble(newWasteAmount);
+                        if(amount < 0){
+                            makeToast("Please enter a positive numeric value");
+                        }
+                        else{
+                            writeWasteAmountToFirebase(amount);
+                        }
+                    } catch (Exception e){
+                        makeToast("Please enter a numeric value");
+                    }
                     finish();
                 }
             }
@@ -133,5 +144,9 @@ public class MarkerDialogActivity extends Activity {
         DatabaseReference dbRef = mFirebaseDatabase.getReference().child("users").child(mUserID);
         Double newTotalWasteAmount = mTotalWasteAmount + newWasteAmount;
         dbRef.child(mWasteType).setValue(newTotalWasteAmount);
+    }
+
+    private void makeToast(String message){
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }

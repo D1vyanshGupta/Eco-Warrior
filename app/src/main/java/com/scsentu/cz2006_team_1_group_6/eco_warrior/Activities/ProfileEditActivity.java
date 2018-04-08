@@ -58,20 +58,21 @@ public class ProfileEditActivity extends Activity{
                 String username = usernameEditText.getText().toString().trim();
                 String userDescription = userDescriptionEditText.getText().toString().trim();
 
-                if (TextUtils.isEmpty(username)) {
-                    Toast.makeText(getApplicationContext(), "Enter new username!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                if (TextUtils.isEmpty(userDescription)) {
-                    Toast.makeText(getApplicationContext(), "Enter new user description!", Toast.LENGTH_SHORT).show();
+                if (!TextUtils.isEmpty(username) && (username.length() < 4 || username.length() > 10)) {
+                    makeToast("Username must be between 4-10 characters in length");
                     return;
                 }
 
                 mRef.child(mUserID).child("username").setValue(username);
-                mRef.child(mUserID).child("userDescription").setValue(userDescription);
+                if(!TextUtils.isEmpty(userDescription)){
+                    mRef.child(mUserID).child("userDescription").setValue(userDescription);
+                }
                 finish();
             }
         });
+    }
+
+    private void makeToast(String message){
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }

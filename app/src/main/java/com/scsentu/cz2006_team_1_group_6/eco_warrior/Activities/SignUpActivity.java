@@ -91,18 +91,18 @@ public class SignUpActivity extends AppCompatActivity{
                 String password = mPasswordEditText.getText().toString().trim();
                 final String userDescription = mUserDescriptionEditText.getText().toString().trim();
 
-                if (TextUtils.isEmpty(email)) {
+                if(username.length() < 4 || username.length() > 10){
+                    makeToast("Username must be between 4-10 characters in length");
+                    return;
+                }
+
+                if (!Utils.checkValidEmail(email)) {
                     makeToast("Enter valid Email Address");
                     return;
                 }
 
-                if (TextUtils.isEmpty(password)) {
-                    makeToast("Enter valid Password");
-                    return;
-                }
-
-                if (password.length() < 6) {
-                    makeToast("Password too short, enter minimum 6 characters");
+                if (password.length() < 8 || password.length() > 15) {
+                    makeToast("Password must be between 8-15 characters in length");
                     return;
                 }
 

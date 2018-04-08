@@ -73,6 +73,7 @@ public class AwardsManager extends Fragment {
 
         return fragmentView;
     }
+
     private void getAwardsList(ArrayList<Award> awardsList){
         awardsArrayList = new ArrayList<>();
         for(Award awardIterator : awardsList){
