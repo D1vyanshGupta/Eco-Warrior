@@ -129,7 +129,7 @@ public class User {
     }
 
     private static ArrayList<Award> getDefaultAwardListForUser(){
-        String[] titleArray = {"E-Waste Recruiter", "E-Waste Warrior", "Philanthropist", "Millionaire", "Flash" };
+        String[] titleArray = {"E-Waste Recruiter", "E-Waste Warrior", "Flash", "Millionaire", "Philanthropist" };
 
         String[] requirementArray = {
                 "Recycle at least 10kg of E-waste, to unlock the award.",
