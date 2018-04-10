@@ -143,9 +143,9 @@ public class User {
         int[] imagePath = {
                 R.drawable.e_waste10,
                 R.drawable.e_waste50,
-                R.drawable.philanthropist,
+                R.drawable.flash,
                 R.drawable.millionaire,
-                R.drawable.flash};
+                R.drawable.philanthropist};
 
         ArrayList<Award> awardsList = new ArrayList<Award>();
 
