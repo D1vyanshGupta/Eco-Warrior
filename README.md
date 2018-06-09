@@ -6,4 +6,9 @@ An Android app that shows various recycling points in Singapore and provides an 
 2. Google Maps API - For showing directions to recycling points.
 
 ## Screenshots
-![User Login](/screenshots/1.png)
+![](/screenshots/1.png)
+![](/screenshots/2.png)
+![](/screenshots/3.png)
+![](/screenshots/4.png)
+![](/screenshots/5.png)
+![](/screenshots/6.png)
